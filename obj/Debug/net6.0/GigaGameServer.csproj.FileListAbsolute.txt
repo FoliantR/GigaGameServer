@@ -1,0 +1,15 @@
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\bin\Debug\net6.0\GigaGameServer.exe
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\bin\Debug\net6.0\GigaGameServer.deps.json
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\bin\Debug\net6.0\GigaGameServer.runtimeconfig.json
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\bin\Debug\net6.0\GigaGameServer.dll
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\bin\Debug\net6.0\GigaGameServer.pdb
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.csproj.AssemblyReference.cache
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.AssemblyInfoInputs.cache
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.AssemblyInfo.cs
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.csproj.CoreCompileInputs.cache
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.dll
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\refint\GigaGameServer.dll
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.pdb
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\GigaGameServer.genruntimeconfig.cache
+C:\Users\snowg\Desktop\GigaGame\GigaGameServer\obj\Debug\net6.0\ref\GigaGameServer.dll
