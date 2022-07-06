@@ -30,17 +30,29 @@ namespace GigaGameServer
                 Stream = client.GetStream();
                 string message = GetMessage();
                 username = message;
+                server.nikClients.Add(username);               
 
-                Console.WriteLine(message);
-                // в бесконечном цикле получаем сообщения от клиента
+                Console.WriteLine(message + " присоеденился на сервер.");
+                // в бесконечном цикле получаем и отправляем сообщения клиента
                 while (true)
                 {
                     try
-                    {
-
+                    {        
+                        message = GetMessage();
+                        if (message == "1001")
+                        {
+                            string buffString = "";
+                            foreach (var item in server.nikClients)
+                            {
+                                buffString += item.ToString();
+                                buffString += '\n';
+                            }
+                            server.BroadcastMessage(buffString, "228");
+                        }
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
+                        Console.WriteLine(username + " - Разорвал соединение");
 
                         break;
                     }
@@ -49,7 +61,6 @@ namespace GigaGameServer
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                throw;
             }
             finally
             {

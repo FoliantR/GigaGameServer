@@ -11,8 +11,8 @@ namespace GigaGameServer
     public class ServerObject
     {
         static TcpListener listener; // Сервер для прослушивания
-        List<ClientObject> clients = new List<ClientObject>(); // список подключений
-
+        public List<ClientObject> clients = new(); // список подключений
+        public List<string> nikClients = new();
         protected internal void AddConnection(ClientObject clientObject)
         {
             clients.Add(clientObject);
